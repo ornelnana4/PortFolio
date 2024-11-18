@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --color-orange:rgb(242, 95, 0);
+    --color-text:rgb(34, 20, 46);
+    --color-light:rgb(234, 238, 223);
+    --color-pink:rgb(255, 0, 138);
+    --color-orange-clair:rgb(218, 158, 118);
+}
+*{
+    box-sizing: border-box;
+    scroll-behavior:smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    background-color: #000;
+    color: #fff;
+}
+.container{margin: auto; width: 90%;}
+.justify-content-space-between{justify-content: space-between;}
+.justify-content-center{justify-content: center;}
+.flex-direct-co{flex-direction: column;}
+.d-flex{display: flex;}
+.align-center{align-items: center;}
+.fs-1{font-size: 1rem;}
+.fs-2{font-size: 2rem;}
+.fs-demi{font-size: .5rem;}
+.line-h-30{line-height: 10px;}
+.marg-top-150{margin-top: 150px;}
+.marg-bot-300{margin-bottom: 300px;}
+.gap-1{gap:1rem}
+.col-whatsapp{background-color: #075E54 ;}
+.text-center{text-align: center;}
+.col-gris{color: #444242;}
+.marg-auto{margin: auto;}
+.orange{color: var(--color-orange);}
+header{background-color: #444242;height: 50px;position: fixed;top:0 ;width: 100%;z-index: 1;}
+header img{height: 32px;}
+.links a{font-size: 1rem;}
+.col-orange{color:rgb(242, 95, 0)}
+.links a:hover{color:rgb(242, 95, 0)}
+header hr{padding-bottom: 50px;}
+header .links{font-size: 1rem;}
+header div .a{background-color: rgb(242, 95, 0);border-radius: 10px; color: #fff; text-align: center; text-decoration: none;height: 30px;width: 150px;display: flex;align-items: center;justify-content: center;}
+header div .a:hover{background-color: rgb(238, 146, 85);}
+#home{}
+ul li{list-style: none;}
+ul li a{text-decoration: none; color: #fff;}
+#home .text{font-size: 2.2rem;}
+.bleu{color:#3B5998}
+.vert{color:#25D366}
+.pl{padding-left: 10px;}
+.color-orange{color:  rgb(218, 158, 118);}
+.text h1 b{color: rgb(218, 158, 118)}
+.text div a{margin-bottom: 250px;}
+.contact-buttun{display:flex;align-items: center; justify-content: center; height: 40px;text-decoration: none;text-align:center; color: #000;background-color: var(--color-orange) ; width: 150px; font-size:1rem;border-radius: 10px;border:1px solid #f19e04;margin-top: 20px;}
+.contact-buttun:hover{background-color:rgb(238, 146, 85);}
+.about{width: 90%;margin: auto;display: flex;}
+.about .texte{width: 70%;}
+.about .texte p{font-size: 1.2rem;color:#fff;line-height: 30px;}
+.about .image img{width: 70%;margin-top: 40px;position: sticky;top:100px;border-radius:10px;}
+.about .personal h1{font-size: 1rem;}
+.about .personal h1 i{font-size: 1rem;color: rgb(218, 158, 118)}
+#skills .paragraph p{line-height: 25px;font-size: 1.2rem;}
+#skills .paragraph h1{color:rgb(218, 158, 118) ;}
+#skills .skills{display: flex; gap:2rem;  flex-wrap: wrap;}
+#skills .skills .cad{background-color: #444242;width: calc(((100% / 3) - 2rem) + (2rem / 3));padding-left: 10px; padding-right: 10px;padding-bottom: 15px; border-radius: 10px;font-size: 1rem;}
+
+#skills .skills :nth-child(7){margin-bottom: 30px;}
+#works .works{display: flex;flex-wrap: wrap;width: 90%;gap:1.5rem;}
+#works .works  .image{display: flex;}
+#works .works .image img{width:450px;border-radius: 20px;height: 300px;margin-top: 30px;object-fit:contain;}
+#works .works .image img:hover{width:500px; border-radius: 20px;   }
+
+#contact .contact{background-color: #484847;display: flex; gap: 3rem;margin-bottom: 150px;margin-top: 40px;border-radius: 10px;padding-left: 7px;padding-right: 7px;}
+#contact .contact .cta{margin: auto;padding-bottom: 30px;}
+#contact .contact h1{color:rgb(242, 95, 0) ;}
+#contact .contact .cta a{color: #fff;}
+#contact .contact .cta a i{ margin-left: 20px;font-size: 1rem;border-radius: 100%;height: 200px; width: 200px;}
+#contact .contact .cta a i:hover{ font-size: 1.5rem;}
+
+
+
+#contact .section{display: flex;margin-bottom: 100px;gap:2rem;}
+#contact .section div article{background-color: #484847;}
+footer{height: 50px;bottom: 0;width: 100%;background-color: #fff;color: #000;}
+@media screen and (max-width:780px) and (min-width: 360px) {
+    #skills .skills .cad{background-color: #444242;width: calc(((100% / 2) - 2rem) + (2rem / 2));padding-left: 10px; padding-right: 10px;padding-bottom: 15px; border-radius: 10px;font-size: 1rem;}
+
+}
+@media screen and (max-width:780px) and (min-width: 360px) {
+    #works .works .image img{width:200px;border-radius: 10px ;height: 200px;margin-top: 30px;}
+
+}
